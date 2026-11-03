@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-canvas: #0E1015;
+    --color-text-main: #EDE8DC;
+    --color-accent-amber: #D99B38;
+    --color-accent-orange: #C85A32;
+    --color-accent-gold: #C4B062;
+    --color-accent-teal: #4A7C7D;
+  }
+
+  /* Archival Light Palette (1970s Technical Manual Paper) */
+  .archival-light {
+    --color-bg-canvas: #F4F1E8;
+    --color-text-main: #1D2128;
+  }
+
+  body {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--color-bg-canvas);
+    color: var(--color-text-main);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Space Grotesk", "Outfit", sans-serif;
+  }
+
+  .font-mono {
+    font-family: "JetBrains Mono", monospace;
+  }
+}
+
+/* 70s Retro Subtle Grain & CRT Screen Texture (subtle, non-distracting) */
+.retro-screen-overlay {
+  background: linear-gradient(rgba(18, 20, 26, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  background-size: 100% 3px, 3px 100%;
+  pointer-events: none;
+}
+
+/* Archival light mode styling overrides */
+.archival-light {
+  background-color: #F4F0E6 !important;
+  color: #1A1D24 !important;
+}
+
+.archival-light header {
+  background-color: rgba(244, 240, 230, 0.94) !important;
+  border-color: rgba(28, 25, 23, 0.15) !important;
+  color: #1A1D24 !important;
+}
+
+.archival-light a {
+  color: inherit;
+}
+
+.archival-light section, 
+.archival-light footer {
+  border-color: rgba(28, 25, 23, 0.12) !important;
+}
+
+.archival-light footer {
+  background-color: #EAE5D8 !important;
+}
+
+.archival-light .bg-\[\#14171F\],
+.archival-light .bg-\[\#14171F\]\/60,
+.archival-light .bg-\[\#14171F\]\/50 {
+  background-color: #FFFFFF !important;
+  border-color: rgba(28, 25, 23, 0.12) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.archival-light .bg-\[\#0E1015\]\/60,
+.archival-light .bg-\[\#0E1015\]\/80,
+.archival-light .bg-\[\#0E1015\] {
+  background-color: #F9F7F1 !important;
+  border-color: rgba(28, 25, 23, 0.12) !important;
+}
+
+.archival-light .text-\[\#EDE8DC\] {
+  color: #16181D !important;
+}
+
+.archival-light .text-stone-300,
+.archival-light .text-stone-200 {
+  color: #2F343E !important;
+}
+
+.archival-light .text-stone-400 {
+  color: #555A65 !important;
+}
+
+.archival-light .text-stone-500 {
+  color: #717784 !important;
+}
+
+.archival-light .border-stone-800,
+.archival-light .border-stone-800\/80,
+.archival-light .border-stone-800\/90,
+.archival-light .border-stone-700,
+.archival-light .border-stone-700\/80 {
+  border-color: rgba(28, 25, 23, 0.15) !important;
+}
+
+.archival-light input,
+.archival-light select,
+.archival-light textarea {
+  background-color: #FFFFFF !important;
+  color: #16181D !important;
+  border-color: #D1CBBB !important;
+}

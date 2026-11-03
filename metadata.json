@@ -1,0 +1,6 @@
+{
+  "name": "Shiel Yule - AI Delivery Manager & Portfolio",
+  "description": "Personal site, portfolio gallery, work history, and contact for Shiel Yule - AI Delivery Manager specializing in Copilot Studio, Azure AI Foundry, Purview, and governed AI products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
