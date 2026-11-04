@@ -1,0 +1,5 @@
+# https://shielyule.uk — public portfolio; crawlers and AI bots welcome
+User-agent: *
+Allow: /
+
+Sitemap: https://shielyule.uk/sitemap.xml
