@@ -112,6 +112,29 @@ export function ProjectSchematicCard({
   projectId: string;
   title: string;
 }) {
+  if (projectId.includes('skateboard-scotland')) {
+    return (
+      <div className="relative w-full h-44 bg-[#F4F4F2] flex items-center justify-between px-6 py-4 border-b border-stone-800/80 overflow-hidden">
+        <div className="space-y-1.5 max-w-[150px]">
+          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-mono bg-[#1D4ED8]/10 text-[#1D4ED8] border border-[#1D4ED8]/30">
+            <span>SPORTSCOTLAND NGB</span>
+          </div>
+          <h4 className="text-xs font-mono text-[#0E1015] font-bold tracking-wider">SKATEBOARD SCOTLAND</h4>
+          <p className="text-[11px] text-stone-600 font-mono leading-tight">
+            Founded, chaired, then handed to younger skaters.
+          </p>
+        </div>
+        <div className="relative w-32 h-28 rounded-xl bg-white border border-stone-300/80 flex items-center justify-center p-2 shadow-inner">
+          <img
+            src="/assets/aistudio/skateboard-scotland.png"
+            alt="Skateboard Scotland logo"
+            className="w-full h-full object-contain"
+          />
+        </div>
+      </div>
+    );
+  }
+
   if (projectId.includes('complaint-path')) {
     // ComplaintPath: UK Statutory Redress Router with Hard Gates & Human-Approved Packs
     return (
