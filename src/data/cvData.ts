@@ -524,6 +524,37 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     technologies: ['Studio Management', 'Ashtanga Practice', 'Event Production', 'ITEC Masseur'],
     badgeColor: 'border-amber-600/40 text-amber-300',
   },
+  {
+    id: 'skateboard-scotland',
+    title: 'Skateboard Scotland',
+    category: 'creative',
+    subtitle: 'Founder & Chairman — Official Governing Body for Skateboarding',
+    period: '2002 - 2004',
+    status: 'Handed to Next Generation',
+    liveUrl: 'https://skateboardscotland.com/',
+    description:
+      'Founded Skateboard Scotland to promote the sport and secure formal recognition. Self-funded the startup so the organisation could chase sport recognition without membership dues constraining early goals. Within a year Sportscotland recognised it as the official governing body — unlocking proper funding pathways for parks, clubs, and events. Chaired through that first recognition cycle, then handed leadership to younger skaters once the founding goals were met. Still skating and supporting the sport’s growth.',
+    architecture: [
+      'Built a skater-run membership organisation with national reach across Scotland within the first year',
+      'Secured Sportscotland recognition as the official governing body for skateboarding (previously outside formal sport funding criteria)',
+      'Helped councils and community groups unlock advice and funding so new skateparks could open nationwide',
+      'Supported competitions, events, and international visibility while keeping the org “run by skaters for skaters”',
+    ],
+    governance: [
+      'Founder-funded startup — no early membership levy shaping the mission',
+      'Time-boxed chairmanship: delivered recognition goals, then transferred leadership to younger members in 2004',
+      'Aligned with Sportscotland pathways so facilities and clubs could access legitimate public funding',
+    ],
+    technologies: [
+      'Sports Governance',
+      'Sportscotland Recognition',
+      'Community Organising',
+      'Facility Advocacy',
+      'Event Production',
+      'Membership Org',
+    ],
+    badgeColor: 'border-blue-500/40 text-blue-300',
+  },
 ];
 
 export const WORK_HISTORY: WorkRole[] = [
