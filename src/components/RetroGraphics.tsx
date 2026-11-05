@@ -113,24 +113,70 @@ export function ProjectSchematicCard({
   title: string;
 }) {
   if (projectId.includes('skateboard-scotland')) {
+    // Telemetry schematic: quarter-pipe + deck — matches other portfolio cards
     return (
-      <div className="relative w-full h-44 bg-[#F4F4F2] flex items-center justify-between px-6 py-4 border-b border-stone-800/80 overflow-hidden">
-        <div className="space-y-1.5 max-w-[150px]">
-          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-mono bg-[#1D4ED8]/10 text-[#1D4ED8] border border-[#1D4ED8]/30">
-            <span>SPORTSCOTLAND NGB</span>
-          </div>
-          <h4 className="text-xs font-mono text-[#0E1015] font-bold tracking-wider">SKATEBOARD SCOTLAND</h4>
-          <p className="text-[11px] text-stone-600 font-mono leading-tight">
-            Founded, chaired, then handed to younger skaters.
-          </p>
-        </div>
-        <div className="relative w-32 h-28 rounded-xl bg-white border border-stone-300/80 flex items-center justify-center p-2 shadow-inner">
-          <img
-            src="/assets/aistudio/skateboard-scotland.png"
-            alt="Skateboard Scotland logo"
-            className="w-full h-full object-contain"
+      <div className="relative w-full h-44 bg-[#12151C] flex items-center justify-center p-4 border-b border-stone-800/80 overflow-hidden">
+        <svg viewBox="0 0 320 160" className="w-full h-full" fill="none" aria-hidden="true">
+          {/* Ground plane */}
+          <line x1="18" y1="132" x2="302" y2="132" stroke="#3F4554" strokeWidth="1.2" />
+          <line x1="18" y1="132" x2="302" y2="132" stroke="#4A7C7D" strokeWidth="0.6" strokeDasharray="2 4" strokeOpacity="0.5" />
+
+          {/* Quarter-pipe ramp */}
+          <path
+            d="M 28 132 L 28 78 Q 28 48 72 48 L 118 48 L 118 132 Z"
+            stroke="#3B82F6"
+            strokeWidth="1.4"
+            fill="#141B28"
           />
-        </div>
+          <path d="M 28 132 Q 28 72 88 56" stroke="#60A5FA" strokeWidth="1.2" fill="none" strokeDasharray="3 2" />
+          <text x="36" y="40" fill="#60A5FA" fontSize="7" fontFamily="monospace" fontWeight="bold">
+            FACILITY
+          </text>
+          <text x="36" y="52" fill="#EDE8DC" fontSize="6.5" fontFamily="monospace">
+            QUARTER-PIPE
+          </text>
+
+          {/* Trajectory arc over the transition */}
+          <path
+            d="M 100 70 Q 150 28 210 58"
+            stroke="#D99B38"
+            strokeWidth="1.2"
+            strokeDasharray="4 3"
+            fill="none"
+          />
+          <polygon points="206,54 216,58 206,64" fill="#D99B38" />
+
+          {/* Skateboard deck */}
+          <g transform="translate(168 72) rotate(-18)">
+            <rect x="0" y="0" width="96" height="14" rx="7" stroke="#D99B38" strokeWidth="1.3" fill="#1C1814" />
+            <line x1="18" y1="7" x2="78" y2="7" stroke="#C4B062" strokeWidth="0.8" strokeOpacity="0.7" />
+            {/* Trucks + wheels */}
+            <circle cx="22" cy="18" r="5" stroke="#EDE8DC" strokeWidth="1.1" fill="#0E1015" />
+            <circle cx="74" cy="18" r="5" stroke="#EDE8DC" strokeWidth="1.1" fill="#0E1015" />
+            <rect x="18" y="10" width="8" height="4" fill="#4A7C7D" />
+            <rect x="70" y="10" width="8" height="4" fill="#4A7C7D" />
+          </g>
+          <text x="188" y="112" fill="#D99B38" fontSize="7" fontFamily="monospace" fontWeight="bold">
+            DECK / TRUCKS
+          </text>
+
+          {/* Status telemetry panel */}
+          <rect x="220" y="22" width="84" height="78" rx="3" stroke="#4A7C7D" strokeWidth="1.2" fill="#131B1D" />
+          <text x="228" y="38" fill="#4A7C7D" fontSize="6.5" fontFamily="monospace" fontWeight="bold">
+            NGB STATUS
+          </text>
+          <line x1="228" y1="44" x2="292" y2="44" stroke="#4A7C7D" strokeOpacity="0.35" />
+          <text x="228" y="58" fill="#38A169" fontSize="6.5" fontFamily="monospace">
+            FOUND 2002
+          </text>
+          <text x="228" y="72" fill="#EDE8DC" fontSize="6.5" fontFamily="monospace">
+            RECOGNISED
+          </text>
+          <text x="228" y="86" fill="#D99B38" fontSize="6.5" fontFamily="monospace">
+            HANDOVER 04
+          </text>
+          <circle cx="286" cy="70" r="3.5" fill="#38A169" />
+        </svg>
       </div>
     );
   }
