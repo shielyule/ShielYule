@@ -12,6 +12,7 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="google-site-verification" content="5tY82TpC7AdZxzuiI_CMXyLxwswRfsu_VVG99rBbDos" />
     <link rel="canonical" href="https://shielyule.uk/" />
+    <link rel="alternate" type="text/plain" href="https://shielyule.uk/llms.txt" title="LLM summary" />
     <meta property="og:title" content="Shiel Yule - AI Delivery Manager & Portfolio" />
     <meta property="og:description" content="Personal site, portfolio gallery, work history, and contact for Shiel Yule - AI Delivery Manager specializing in Copilot Studio, Azure AI Foundry, Purview, and governed AI products." />
     <meta property="og:type" content="website" />
@@ -27,10 +28,89 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shiel Yule",
+        "url": "https://shielyule.uk/",
+        "email": "mailto:shielyule@shielyule.co.uk",
+        "jobTitle": "AI Delivery Manager",
+        "description": "AI Delivery Manager specializing in Copilot Studio, Azure AI Foundry, Microsoft Purview, and governed AI products for regulated enterprise. Based in Scotland, UK.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Scotland",
+          "addressCountry": "GB"
+        },
+        "sameAs": [
+          "https://shielyule.co.uk/",
+          "https://www.youtube.com/@shielyule1223"
+        ],
+        "knowsAbout": [
+          "Copilot Studio",
+          "Azure AI Foundry",
+          "Microsoft Purview",
+          "Governed AI",
+          "Human-in-the-loop AI systems",
+          "AI delivery management"
+        ]
+      }
+    </script>
+    <style>
+      /* Visible to crawlers / no-JS; hidden once the React app mounts */
+      #ai-crawl-summary[data-hidden="true"] {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+      }
+    </style>
   </head>
   <body>
+    <section id="ai-crawl-summary" aria-label="Machine-readable profile summary">
+      <h1>Shiel Yule — AI Delivery Manager</h1>
+      <p>
+        Scotland-based AI Delivery Manager for Copilot Studio, Azure AI Foundry, Microsoft Purview,
+        and governed AI products in regulated enterprise. Available for contract or interim delivery.
+        Portfolio and proof: https://shielyule.uk/ — writing: https://shielyule.co.uk/ —
+        contact: shielyule@shielyule.co.uk
+      </p>
+      <h2>Offer</h2>
+      <p>
+        Takes Copilot Studio and Azure AI Foundry from discovery through Purview controls, PEN-test
+        gates, human-in-the-loop review, and controlled go-live. Replaces unmonitored shadow IT with
+        audit-ready operational AI.
+      </p>
+      <h2>Selected products</h2>
+      <ul>
+        <li>
+          Tribunal Ally — Gemini on Cloud Run employment tribunal case-file product; Firebase
+          Auth/Firestore/Storage; human-confirmed extracts; Acas/GOV.UK grounding; soft launch and
+          sponsor funding discussions in progress.
+        </li>
+        <li>DealTable WebMCP — negotiation tool-calling with mandate and walkaway safeguards.</li>
+        <li>GhostMerchant — buyer-side PayPal escrow control plane for autonomous agents.</li>
+        <li>GridRecord — AI-assisted energy operations and reporting.</li>
+      </ul>
+      <h2>Enterprise context</h2>
+      <p>
+        Delivery includes National Grid (Copilot Studio through Purview and PEN testing) and ACCA
+        (private open-source model into Azure AI Studio). Full history: https://shielyule.uk/#work-history
+      </p>
+      <p>Plain-text agent summary: https://shielyule.uk/llms.txt</p>
+    </section>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Hide the crawl summary for human UI once JS runs; content remains in the HTML source for bots.
+      document.documentElement.classList.add('js');
+      var summary = document.getElementById('ai-crawl-summary');
+      if (summary) summary.setAttribute('data-hidden', 'true');
+    </script>
   </body>
 </html>
-

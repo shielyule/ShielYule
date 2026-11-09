@@ -2,4 +2,7 @@
 User-agent: *
 Allow: /
 
+# Plain-text summary for LLM / agent crawlers
+# https://shielyule.uk/llms.txt
+
 Sitemap: https://shielyule.uk/sitemap.xml

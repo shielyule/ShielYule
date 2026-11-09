@@ -50,7 +50,7 @@ export function Hero() {
                 I build AI products people can actually use, and take the same craft into regulated delivery.
               </p>
               <p className="text-sm sm:text-base text-stone-300 font-normal max-w-2xl leading-relaxed">
-                Tribunal Ally, Employee Ally, DealTable and GridRecord &mdash; hacked, shipped and hardened on Google Cloud and Railway with Gemini, Cursor and Grok. Same hands that took Copilot Studio through Purview and PEN testing at National Grid, and a private open source model into Azure AI Studio at ACCA.
+                Tribunal Ally (Gemini on Cloud Run; soft launch), Employee Ally, DealTable and GridRecord &mdash; hacked, shipped and hardened on Google Cloud and Railway with Gemini, Cursor and Grok. Same hands that took Copilot Studio through Purview and PEN testing at National Grid, and a private open source model into Azure AI Studio at ACCA.
               </p>
             </div>
 
