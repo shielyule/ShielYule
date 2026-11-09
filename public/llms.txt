@@ -1,0 +1,43 @@
+# Shiel Yule
+
+> AI Delivery Manager (Scotland, UK). Copilot Studio, Azure AI Foundry, Microsoft Purview, and governed AI products for regulated enterprise. Available for contract / interim delivery.
+
+Site: https://shielyule.uk/
+Blog & writing: https://shielyule.co.uk/
+Contact: shielyule@shielyule.co.uk
+
+## Who this is for
+
+Hiring managers and programme leads who need someone to take Microsoft Copilot Studio or Azure AI Foundry from discovery through Purview controls, PEN-test gates, human-in-the-loop review, and controlled go-live — not demoware that dies as shadow IT.
+
+## What Shiel delivers
+
+- Enterprise AI delivery: Copilot Studio, Azure AI Foundry, Purview, Power Platform
+- Lifecycle: discovery → pilot → harden → controlled go-live → continuous improvement
+- Governance: UK GDPR, PEN testing gates, audit-ready risk documentation, human-in-the-loop
+- Hands-on build: React/TypeScript products on Google Cloud, Railway, and related stacks
+
+## Selected proof (live products)
+
+- Tribunal Ally — Gemini on Cloud Run employment tribunal case-file product (Firebase Auth/Firestore/Storage; human-confirmed extracts; Acas/GOV.UK grounding; soft launch)
+- Employee Ally — related employment dispute preparation with the same HITL discipline
+- DealTable WebMCP — negotiation tool-calling with mandate/walkaway safeguards
+- GhostMerchant — buyer-side PayPal escrow control plane for autonomous agents
+- GridRecord — AI-assisted energy operations / reporting
+- Countermark, ComplaintPath, UNDO, Truce — additional governed / agentic prototypes
+
+Portfolio detail: https://shielyule.uk/#portfolio
+
+## Enterprise delivery context
+
+Prior delivery includes National Grid (enterprise web + Copilot Studio through Purview / PEN testing) and ACCA (private open-source model into Azure AI Studio / containerized AI). Full work history: https://shielyule.uk/#work-history
+
+## Flagship writing (blog)
+
+Deep delivery write-ups and product posts live on https://shielyule.co.uk/ — use the portfolio on https://shielyule.uk/ as structured proof alongside those articles.
+
+## Optional
+
+- Location: Scotland, UK
+- Clearance: Previous SC · Current Basic Disclosure
+- Stats context: 20+ years enterprise delivery; teams up to 80+; programmes up to £36M scale
